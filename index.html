@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>Vege Slide Show</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  <div id="header">
+    <h1>Vege Slide Show</h1>
+  </div>
+  <div id="veges"></div>
+  <div id="footer"></div>
+
+  <script id="vegeTemplate" type="text/template">
+      <img src="<%= image %>"/>
+  </script>
+
+  <script src="js/lib/underscore-min.js"></script>
+  <script src="js/lib/jquery-2.1.1.min.js"></script>
+  <script src="js/lib/backbone-min.js"></script>
+  <script src="js/models/Vege.js"></script>
+  <script src="js/collections/Veges.js"></script>
+  <script src="js/views/VegeLeft.js"></script>
+  <script src="js/views/VegeCenter.js"></script>
+  <script src="js/views/VegeRight.js"></script>
+  <script src="js/views/Veges.js"></script>
+  <script src="js/app.js"></script>
+
+</body>
+</html>
